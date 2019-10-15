@@ -13,11 +13,7 @@ body p span {
   -o-background-size: inherit;
   background-size: inherit;
 } */
-nav {
-    color: white;
-}
-
-.navbar-text {
+nav nav > .navbar-text {
     color: white
 }
 
@@ -25,7 +21,10 @@ nav {
     width: 80%;
     height: 90%;
 }
-
+.img-logo {
+    width: 55%;
+    height: 55%;
+}
 .section-one {
     margin: 4% 8%;
 }
@@ -35,10 +34,22 @@ nav {
     font-size: 4vw;
 }
 
+.hr-line{
+margin: 0px 10%;
+}
+
 .text-style {
     font-size: 1vw;
 }
-
+@media screen and (max-width: 300px) {
+    .text-style .button {
+        font-size: 3vw;
+    }
+    .img-logo {
+        width: 35%;
+        height: 35%;
+    }
+}
 .button {
     border-radius: 20px;
     Bottom: 10px;
@@ -110,14 +121,18 @@ nav {
 .subheading {
     color: #FFB900;
     font-weight: 300;
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-family: "Open Sans", serif;
 }
 
 .para {
-    padding-top: 10px;
+    font-size:1em;
 }
-
+@media screen and (max-width: 300px) {
+    .para {
+        font-size:2vw;
+    }
+}
 .flex-container2 {
     display: flex;
     align-items: stretch;
@@ -156,8 +171,14 @@ nav {
 .container>.container__text {
     margin: 7% 3%;
     flex: 1 1 auto;
-    font-size: 1.2vw;
+    font-size: 15px;
 }
+/* @media screen and (max-width: 450px) {
+    .container>.container__text {
+        font-size: 2vw;
+    }
+} */
+
 
 /* Partner say */
 .partner_said {
