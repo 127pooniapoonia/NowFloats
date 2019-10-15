@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body p span {
+    font-family: "Open Sans", serif;
+}
+
+/* .container-fluid{
+    -webkit-background-size: inherit;
+  -moz-background-size: inherit;
+  -o-background-size: inherit;
+  background-size: inherit;
+} */
+nav {
+    color: white;
+}
+
+.navbar-text {
+    color: white
+}
+
+.img-fluid1 {
+    width: 80%;
+    height: 90%;
+}
+
+.section-one {
+    margin: 4% 8%;
+}
+
+.partner-program {
+    color: white;
+    font-size: 4vw;
+}
+
+.text-style {
+    font-size: 1vw;
+}
+
+.button {
+    border-radius: 20px;
+    Bottom: 10px;
+    padding: 8px 15px;
+    transition: background 200ms ease-in-out;
+    font-size: 1vw;
+    width: inherit;
+    height: inherit;
+    font-weight: bold;
+}
+
+.query_button {
+    color: #ffb900;
+    border: 1px solid #ffb900;
+    background-color: white;
+}
+
+.query_button2 {
+    color: white;
+    background-color: #ffb900;
+}
+
+/* Section2 */
+.flex-container {
+    margin: 0px auto;
+    display: flex;
+    /* align-items: stretch; */
+    justify-content: space-around;
+    padding: 0px 20%;
+
+}
+
+.flex-container>div {
+    color: white;
+    width: 6rem;
+    font-size: 20px;
+    flex: 1 1 1;
+    height: auto;
+    text-align: center;
+    margin: 0px 5%;
+    margin-bottom: 2%;
+
+}
+
+.image {
+    widows: 4rem;
+    ;
+    height: 4rem;
+    margin-left: 20%;
+}
+
+.text {
+    text-align: center;
+    color: black;
+}
+
+
+/* partner */
+.heading_section {
+    color: lightgray;
+    bottom: 0;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+
+}
+
+.subheading {
+    color: #FFB900;
+    font-weight: 300;
+    font-size: 1.4em;
+    font-family: "Open Sans", serif;
+}
+
+.para {
+    padding-top: 10px;
+}
+
+.flex-container2 {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    background-color: #ffb900;
+    height: auto;
+}
+
+.flex-container2>div {
+    color: white;
+    margin: 2% 2%;
+    text-align: center;
+    font-size: 2.3vw;
+
+}
+
+.container {
+    padding: 20px 40px 40px;
+    max-width: 640px;
+    display: flex;
+}
+
+.container>.container__image {
+    margin: 20px 30px 0 0;
+    width: 50%;
+    object-fit: contain;
+    align-self: flex-start;
+}
+
+.container>.container__image1 {
+    margin: 0% 10%;
+    width: 80%;
+    object-fit: contain;
+}
+
+.container>.container__text {
+    margin: 7% 3%;
+    flex: 1 1 auto;
+    font-size: 1.2vw;
+}
+
+/* Partner say */
+.partner_said {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+
+/* frequently asked questions */
+.boxes {
+    padding: 3% 15%;
+}
+
+/* Footer */
+footer {
+    margin-bottom: 30px;
+}
+
+.form-row {
+    margin-top: 10px 0px;
+}
+
+.group {
+    margin: 15px 0px;
+}
+
+
+
+/* Model CSS */
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #ffb900;
+    text-decoration: none;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.overlay_menu {
+    float: right;
+    margin-right: 10%;
+    color: white;
+    text-align: right;
+    font-size: 15rem;
+    line-height: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 14px
+    }
+
+    .overlay .closebtn {
+        font-size: 14px;
+        top: 15px;
+        right: 35px;
+    }
+}
