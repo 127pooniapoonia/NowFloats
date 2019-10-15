@@ -41,13 +41,13 @@ margin: 0px 10%;
 .text-style {
     font-size: 1vw;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .text-style .button {
         font-size: 3vw;
     }
     .img-logo {
-        width: 35%;
-        height: 35%;
+        width: 30%;
+        height: 30%;
     }
 }
 .button {
