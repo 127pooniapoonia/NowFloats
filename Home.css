@@ -7,13 +7,13 @@ body p span {
     font-family: "Open Sans", serif;
 }
 
-/* .container-fluid{
-    -webkit-background-size: inherit;
-  -moz-background-size: inherit;
-  -o-background-size: inherit;
-  background-size: inherit;
-} */
-nav nav > .navbar-text {
+p {
+    font-size: 14px;
+}
+p.Start_selling{
+    font-size: 1rem;
+}
+nav nav>.navbar-text {
     color: white
 }
 
@@ -21,10 +21,12 @@ nav nav > .navbar-text {
     width: 80%;
     height: 90%;
 }
+
 .img-logo {
     width: 55%;
     height: 55%;
 }
+
 .section-one {
     margin: 4% 8%;
 }
@@ -34,34 +36,39 @@ nav nav > .navbar-text {
     font-size: 4vw;
 }
 
-.color{
-    color:white !important;
+.color {
+    color: white !important;
 }
 
-.hr-line{
-  border:1px solid white;
+.hr-line {
+    border: 1px solid white;
 }
 
 .text-style {
     font-size: 1vw;
 }
+
 .text-style1 {
-    font-size:1.1vw;
+    font-size: 1.1vw;
 }
+
 @media screen and (max-width:800px) {
     .text-style .text-style1 .button {
         font-size: 1.3vw;
     }
 }
+
 @media screen and (max-width:500px) {
     .text-style .text-style1 .button {
         font-size: 3vw;
     }
+
     .img-logo {
         width: 40%;
         height: 40%;
     }
 }
+
 .button {
     border-radius: 20px;
     Bottom: 10px;
@@ -76,20 +83,22 @@ nav nav > .navbar-text {
     color: #ffb900;
     border: 1px solid #ffb900;
     background-color: white;
-    font-size:15px;
-    
+    font-size: 15px;
+
 
 }
-.q1{
+
+.q1 {
     color: #ffb900;
     border: 1px solid #ffb900;
     background-color: white;
-    font-size:1.5vw;
+    font-size: 1.2vw;
 }
+
 .query_button2 {
     color: white;
     background-color: #ffb900;
-    font-size:15px;
+    font-size: 15px;
 }
 
 /* Section2 */
@@ -120,9 +129,11 @@ nav nav > .navbar-text {
     height: 4rem;
     margin-left: 20%;
 }
-.asset-icon{
-  margin:10px 0px;
+
+.asset-icon {
+    margin: 10px 0px;
 }
+
 .text {
     text-align: center;
     color: black;
@@ -146,6 +157,7 @@ nav nav > .navbar-text {
     font-size: 1.3em;
     font-family: "Open Sans", serif;
 }
+
 .flex-container2 {
     display: flex;
     align-items: stretch;
@@ -181,7 +193,7 @@ nav nav > .navbar-text {
     font-size: 15px;
 }
 
-/* Partner say */
+/* Feedback */
 .partner_said {
     width: 150px;
     height: 200px;
