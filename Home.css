@@ -34,20 +34,32 @@ nav nav > .navbar-text {
     font-size: 4vw;
 }
 
+.color{
+    color:white !important;
+}
+
 .hr-line{
-margin: 0px 10%;
+  border:1px solid white;
 }
 
 .text-style {
     font-size: 1vw;
 }
+.text-style1 {
+    font-size:1.1vw;
+}
+@media screen and (max-width:800px) {
+    .text-style .text-style1 .button {
+        font-size: 1.3vw;
+    }
+}
 @media screen and (max-width:500px) {
-    .text-style .button {
+    .text-style .text-style1 .button {
         font-size: 3vw;
     }
     .img-logo {
-        width: 10%;
-        height: 10%;
+        width: 40%;
+        height: 40%;
     }
 }
 .button {
@@ -55,7 +67,6 @@ margin: 0px 10%;
     Bottom: 10px;
     padding: 8px 15px;
     transition: background 200ms ease-in-out;
-    font-size: 1vw;
     width: inherit;
     height: inherit;
     font-weight: bold;
@@ -65,11 +76,20 @@ margin: 0px 10%;
     color: #ffb900;
     border: 1px solid #ffb900;
     background-color: white;
-}
+    font-size:15px;
+    
 
+}
+.q1{
+    color: #ffb900;
+    border: 1px solid #ffb900;
+    background-color: white;
+    font-size:1.5vw;
+}
 .query_button2 {
     color: white;
     background-color: #ffb900;
+    font-size:15px;
 }
 
 /* Section2 */
@@ -100,7 +120,9 @@ margin: 0px 10%;
     height: 4rem;
     margin-left: 20%;
 }
-
+.asset-icon{
+  margin:5px 0px;
+}
 .text {
     text-align: center;
     color: black;
@@ -109,7 +131,7 @@ margin: 0px 10%;
 
 /* partner */
 .heading_section {
-    color: lightgray;
+    color: grey;
     bottom: 0;
     margin-left: 15%;
     margin-top: 5%;
@@ -161,9 +183,8 @@ margin: 0px 10%;
 
 /* Partner say */
 .partner_said {
-    width: 200px;
+    width: 150px;
     height: 200px;
-    border-radius: 50%;
 }
 
 
@@ -185,8 +206,6 @@ footer {
 .group {
     margin: 15px 0px;
 }
-
-
 
 /* Model CSS */
 .overlay {
@@ -236,7 +255,7 @@ footer {
     margin-right: 10%;
     color: white;
     text-align: right;
-    font-size: 15rem;
+    font-size: 10rem;
     line-height: 20px;
     font-family: 'Open Sans', sans-serif;
 }
