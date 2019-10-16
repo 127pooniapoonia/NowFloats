@@ -10,22 +10,62 @@ body p span {
 p {
     font-size: 14px;
 }
-p.Start_selling{
+
+p.Start_selling {
     font-size: 1rem;
 }
+
+nav {
+    margin-bottom: 0;
+}
+
 nav nav>.navbar-text {
     color: white
+}
+
+.img-logo {
+    width: 27%;
+    height: auto;
+}
+
+.text-style {
+    font-size: 1.1vw;
+    border: none;
+    color: white;
+    width: 60%;
+    text-align: right;
+}
+
+.text-style1 {
+    font-size: 1.3vw;
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width:960px) {
+    .text-style {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .text-style {
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .text-style {
+        font-size: 3.5vw;
+    }
+
 }
 
 .img-fluid1 {
     width: 80%;
     height: 90%;
+
 }
 
-.img-logo {
-    width: 55%;
-    height: 55%;
-}
 
 .section-one {
     margin: 4% 8%;
@@ -33,7 +73,7 @@ nav nav>.navbar-text {
 
 .partner-program {
     color: white;
-    font-size: 4vw;
+    font-size: 3.7vw;
 }
 
 .color {
@@ -42,41 +82,18 @@ nav nav>.navbar-text {
 
 .hr-line {
     border: 1px solid white;
-}
-
-.text-style {
-    font-size: 1vw;
-}
-
-.text-style1 {
-    font-size: 1.1vw;
-}
-
-@media screen and (max-width:800px) {
-    .text-style .text-style1 .button {
-        font-size: 1.3vw;
-    }
-}
-
-@media screen and (max-width:500px) {
-    .text-style .text-style1 .button {
-        font-size: 3vw;
-    }
-
-    .img-logo {
-        width: 40%;
-        height: 40%;
-    }
+    margin: 0 9%;
 }
 
 .button {
     border-radius: 20px;
     Bottom: 10px;
-    padding: 8px 15px;
+    padding: 6px 8px;
     transition: background 200ms ease-in-out;
     width: inherit;
     height: inherit;
     font-weight: bold;
+    margin-top: 2%;
 }
 
 .query_button {
@@ -108,25 +125,35 @@ nav nav>.navbar-text {
     /* align-items: stretch; */
     justify-content: space-around;
     padding: 0px 20%;
+    margin-bottom: 10px;
+
+
+}
+
+@media screen and (max-width:360px) {
+    .flex-container>div {
+        flex-direction: column;
+        -ms-flex-direction: column;
+    }
 
 }
 
 .flex-container>div {
     color: white;
-    width: 6rem;
-    font-size: 20px;
+    width: 7rem;
+    font-size: 100%;
     flex: 1 1 1;
     height: auto;
     text-align: center;
     margin: 0px 5%;
     margin-bottom: 2%;
-
+    flex-direction: row;
+    -ms-flex-direction: row;
 }
 
 .image {
-    widows: 4rem;
-    ;
-    height: 4rem;
+    width: 50%;
+    height: 50%;
     margin-left: 20%;
 }
 
@@ -137,8 +164,22 @@ nav nav>.navbar-text {
 .text {
     text-align: center;
     color: black;
+    font-size: 1.6vw;
 }
 
+@media screen and (max-width:960px) {
+    .text {
+        font-size: 2.1vw;
+    }
+
+}
+
+@media screen and (max-width:460px) {
+    .text {
+        font-size: 2.8vw;
+    }
+
+}
 
 /* partner */
 .heading_section {
@@ -195,8 +236,9 @@ nav nav>.navbar-text {
 
 /* Feedback */
 .partner_said {
-    width: 150px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
 
 
