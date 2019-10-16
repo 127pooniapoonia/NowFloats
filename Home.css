@@ -26,6 +26,8 @@ nav nav>.navbar-text {
 .img-logo {
     width: 27%;
     height: auto;
+    height:27%;
+    text-align:center;
 }
 
 .text-style {
